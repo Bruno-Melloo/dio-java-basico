@@ -25,6 +25,20 @@ public class Usuario {
 		smartTv.desligar();
 		System.out.println("Novo Status -> TV Ligada? " + smartTv.ligada);
 
+		
+		double saldo = 50;
+		double solicitacaoSaque = 25;
+		
+		if (solicitacaoSaque < saldo);
+		saldo = saldo - solicitacaoSaque;
+		System.out.println(saldo);
+		
+		String alunos [] = {"Bruno", "Italo", "Kaio", "Davi"};
+		for (int x=0; x<alunos.length; x++)
+		
+		System.out.println("O aluno no índice " +x+ "é: " + alunos[x]);
+		
+	
 	}
 
 }
